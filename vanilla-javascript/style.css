@@ -20,7 +20,7 @@ body {
 
 .container {
   width: 60vh;
-  height: 70vh;
+  height: 80%;
   background-color: #f9f9f9;
   border: 5px dashed #faf4b7;
   display: flex;
@@ -47,4 +47,30 @@ body {
 
 .submit__btn {
   padding: 0px 5px;
+}
+
+#todo__container {
+  margin-top: 30px;
+  list-style: none;
+}
+
+#todo__container li {
+  padding: 15px;
+}
+
+#todo__container button {
+  margin: 0px 2px;
+  padding: 5px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.mod__btn {
+  background-color: #8eac50;
+}
+
+.del__btn {
+  background-color: #f24c3d;
 }
